@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(171, 234, 235);
+}
+
+.details {
+    height: 100%;
+    display: flex;
+    border: 1px solid brown;
+    margin: auto 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label[for="username"], label[for="pwd"] {
+    font-size: 1.25em;
+}
+
+#username, #pwd {
+    max-width: 400px;
+    max-height: 20px;
+    padding: 10px 5px;
+    margin: 10px 0px;
+}
+
+button {
+    width: 100px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    margin: 5px 0px 15px 0px;
+    color: white;
+    background-color: chocolate;
+}
